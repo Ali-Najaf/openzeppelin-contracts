@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.top {
+    background: #d7ba28;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+display: flex;
+}
+
+.text {
+    background-color: #d7ba28 ;
+    padding-top: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+    display: flex;
+    word-spacing: 3px;
+    font-weight: 700;
+    font-size: 13px;
+   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bottom {
+    background-color: #333;
+    width: 100%;
+    height: 185px;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image img {
+    padding-top: 30px;
+
+}
+
+.search a i {
+
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: #f3e8d5;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart a i{
+
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    color: #f3e8d5;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.list ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.list ul li:hover::after {
+    margin-top: 8px;
+    background-color: white;
+    width: 100%;
+}
+
+.list ul li::after{
+    content: '';
+    display: block;
+    /* margin: auto; */
+    height: 2px;
+    width: 0px;
+    /* background: transparent; */
+    margin-top: 8px;
+    /* transition: width .5s ease, background-color .5s ease,; */
+    transition: all 0.5s ease;
+}
+
+.chadar img {
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+
+}
+
+.chadar img:active {
+    cursor: grabbing;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    height: 800px;
+    align-items: center;
+    background-color: bisque;
+}
+
+.container img {
+    height: 700px;
+    width: 730px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0px 20px 0px;
+    height: 800px;
+    align-items: center;
+    background-color: bisque;
+}
+
+.container2 img {
+    height: 700px;
+    width: 730px;
+}
+
+.para {
+    text-align: center;
+    padding: 130px 0px 50px 0px;
+    font-size: 37px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.shorti {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 160px;
+    padding-right: 40px;
+
+}
+
+.A {
+    position: relative;
+}
+
+.a {
+    position: relative;
+}
+
+.B {
+    position: relative;
+}
+
+.b {
+    position: relative;
+}
+
+.C {
+    position: relative;
+}
+
+.c {
+    position: relative;
+}
+
+.D {
+    position: relative;
+}
+
+.d {
+    position: relative;
+}
+
+.see {
+    position: absolute;
+    background-color: #333;
+   
+    color: white;
+    font-size: 20px;
+    width: 54px;
+    height: 38px;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ap {
+    position: absolute;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: white;
+    font-family: Arial, Helvetica;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+.rs {
+    font-size: 15px;
+    letter-spacing: 2px;
+    background-color: white;
+    color: rgb(254, 147, 8);
+}
+
+.cancel {
+    font-size: 15px;
+    color: orange;
+    letter-spacing: 2px;
+    background-color: white;
+    text-decoration: line-through;
+}
+
+.written {
+    height: 600px;
+    width: auto;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+
+.b1 {
+    overflow: hidden;
+}
+
+.b2 {
+    overflow: hidden;
+}
+
+.b3 {
+    overflow: hidden;
+}
+
+.b4 {
+    overflow: hidden;
+}
+
+.collection img:hover {
+    transition: transform 0.3s;
+    transform: scale(1.04);
+    transition-delay: 0.1s;
+
+}
+
+.bigi1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px 0px 40px;
+}
+.bigi1 img {
+    width: 720px;
+    height: 700px;
+
+
+}
+
+.bigi2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 40px 0px 40px;
+}
+
+.bigi2 img {
+    width: 720px;
+    height: 700px;
+}
+
+.ab {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: #fff;
+    font-family: Arial, Helvetica;
+    padding-top: 5px;
+}
+
+.para2 {
+    text-align: center;
+    padding: 170px 0px 70px 0px;
+    font-size: 37px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.foot {
+    background-color: #d7ba28;
+    height: 570px;
+    width: 100%;
+}
+
+.row1 {
+    display: flex;
+    padding: 70px 0px 35px 0px;
+    justify-content: space-between;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+}
+
+.col1 {
+    padding-left: 80px;
+}
+
+.col4 {
+    padding-right: 130px;
+}
+
+ul li {
+    font-size: 14px;
+    font-family: Arial, Helvetica;
+    color: #fff;
+    list-style: none;
+    cursor: pointer;
+}
+
+.col3 ul li {
+    font-size: 12px;
+    font-family: Arial, Helvetica;
+    color: #fff;
+    list-style: none;
+    line-height: 50px;
+    margin-top: -15px;
+}
+
+.add {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 20px;
+    cursor: default;
+}
+
+.sub {
+    margin-left: -100px;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-align: center;
+}
+form{
+    background-color: #d7ba28;
+}
+
+.email {
+    display: flex;
+    margin: 40px 80px;
+    padding-bottom: 10px;
+    width: 285px;
+    border-bottom: 2px solid white;
+    margin-left: 550px;
+    background-color: #ffffff;
+    height:35px ;
+}
+
+
+input {
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 355px;
+    font-size: 18px;
+    padding-left: 10px;
+    background: #d7ba28;
+    border: none;
+    border-bottom: 1.5px solid;
+}
+::placeholder {
+    opacity: 0.5;
+    color: #fff;
+
+}
+input:focus {
+    outline: none;
+    border: 1px solid #fff;
+}
+ .bi-envelope {
+    cursor: pointer;
+    position: relative;
+    left: 330px;
+    bottom: 37px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+
+
+.logo {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 11px;
+    line-height: 30px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #22ce5b;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-left: 1455px;
+    margin-top: 495px;
+    font-weight: 600;
+    height: 37px;
+    width: 110px;
+    position: fixed;
+    font-family: Arial, Helvetica;
+    z-index: 1;
+}
+
+.contact img {
+    height: 24px;
+    padding-right: 6px;
+    background: #22ce5b;
+    padding-bottom: 3px;
+}
+
+.us {
+    padding-right: 2px;
+    background: #22ce5b;
+}
+
+.emaill {
+    cursor: pointer;
+    height: 30px;
+    border: none;
+}
+.inner{
+margin-right: -360px;
+overflow: hidden; 
+}
+ .outer:hover{
+opacity: 0;
+} 
+.outer{
+    height: 360px;
+}
+nav .bi{
+    display: none;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (min-width:375px) and (max-width:600px) {
+    .top {
+        height: 35px;
+    width: 100%;
+    }
+    .text {
+      
+        letter-spacing: 0px;
+    word-spacing: 2px;
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 2px;
+    }
+    .bottom {
+        
+        width: 100%;
+    height: 121px;
+}
+    
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    
+    .image img {
+        padding-top: 16px;
+        height: 75%;
+        width: 60%;
+    }
+    
+    .search a i {
+        font-size: 15px;
+    top: 36px;
+
+       
+    }
+    .line {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .cart a i{
+    
+        font-size: 15px;
+    top: 36px;
+    }
+nav .bi{
+    display: block;
+    color: #fff;
+    font-size: 26px;
+    position: relative;
+    bottom: 0;
+    top: -98px;
+    left: 10px;
+    cursor: pointer;
+    
+}
+    .list ul li {
+display: block;
+padding-bottom: 20px;
+padding-right: 33px;
+
+    }
+    .list{
+        position: absolute;
+        height: 100vh;
+        width: 220px;
+        z-index: 2;
+        background-color: #d7ba28;
+        top: 0;
+        left: -220px;
+        text-align: left;
+        transition: 1s;
+
+    }
+    nav .bi-x{
+        display: block;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    bottom: 0;
+    top: -335px;
+    left: 179px;
+    cursor: pointer;
+    }
+    
+    .para {
+        padding: 10px 0px 30px 0px;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    
+    .shorti {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    
+    }
+    .main{
+        width: 100%;
+    }}
