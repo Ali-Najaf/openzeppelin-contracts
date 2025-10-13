@@ -536,6 +536,8 @@ nav .bi{
     top: -98px;
     left: 10px;
     cursor: pointer;
+    opacity: 100%;
+    z-index: 1;
     
 }
     .list ul li {
